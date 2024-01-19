@@ -8,6 +8,19 @@ const CartDetails = () => {
     return (
         <div className="cart-details-container">
             <div className="cart-details">
+                {cart.length ? (
+                    ""
+                ) : (
+                    <h1
+                        style={{
+                            textAlign: "center",
+                            padding: "40px",
+                            color: "rgb(253, 86, 114)",
+                        }}
+                    >
+                        No Items in Cart
+                    </h1>
+                )}
                 {cart.map((cartItem, index) => {
                     return (
                         <>
