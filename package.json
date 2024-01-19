@@ -1,7 +1,6 @@
 {
-    "homepage": "https://nagesh15.github.io/E-Commerce",
     "name": "e-commerce",
-    "private": false,
+    "private": true,
     "version": "0.0.0",
     "type": "module",
     "scripts": {
