@@ -1,10 +1,17 @@
 import Bag1 from "../assets/carrybag1.jpg";
+import Bag2 from "../assets/carrybag2.jpg";
+import Bag3 from "../assets/carrybag3.jpg";
+import Bag4 from "../assets/carrybag4.jpg";
+import Bag5 from "../assets/carrybag5.jpg";
+import Bag6 from "../assets/carrybag6.jpg";
+import Bag7 from "../assets/carrybag7.jpg";
+import Bag8 from "../assets/carrybag8.jpg";
 
 export const ProductsData = [
     {
         id: 1,
         image: Bag1,
-        title: "Pan Am Loggage Hissan",
+        title: "Caprese",
         info: "Lorem ipsum dolor sit amet consectetur adip",
         price: "628.66",
         tag: "new",
@@ -12,8 +19,8 @@ export const ProductsData = [
     },
     {
         id: 2,
-        image: Bag1,
-        title: "Pan Am Hissan",
+        image: Bag2,
+        title: "Bag Pepper",
         info: "Lorem ipsum dolor sit amet consectetur adip",
         price: "224.66",
         tag: "new",
@@ -21,8 +28,8 @@ export const ProductsData = [
     },
     {
         id: 3,
-        image: Bag1,
-        title: "Pan Am",
+        image: Bag3,
+        title: "Baggit",
         info: "Lorem ipsum dolor sit amet consectetur adip",
         originalPrice: "246.66",
         price: "189.99",
@@ -32,8 +39,8 @@ export const ProductsData = [
     },
     {
         id: 4,
-        image: Bag1,
-        title: "Pan ",
+        image: Bag4,
+        title: "Berrylush",
         info: "Lorem ipsum dolor sit amet consectetur adip",
         price: "599.66",
         tag: "new",
@@ -41,8 +48,8 @@ export const ProductsData = [
     },
     {
         id: 5,
-        image: Bag1,
-        title: "Leather Top by Joshua",
+        image: Bag5,
+        title: "Rubans",
         info: "Lorem ipsum dolor sit amet consectetur adip",
         price: "684.66",
         tag: "new",
@@ -50,8 +57,8 @@ export const ProductsData = [
     },
     {
         id: 6,
-        image: Bag1,
-        title: "Leather Top by asua",
+        image: Bag6,
+        title: "ZOUK",
         info: "Lorem ipsum dolor sit amet consectetur adip",
         originalPrice: "205.66",
         price: "199.99",
@@ -61,8 +68,8 @@ export const ProductsData = [
     },
     {
         id: 7,
-        image: Bag1,
-        title: "Pan Am",
+        image: Bag7,
+        title: "Lino Perros",
         info: "Lorem ipsum dolor sit amet consectetur adip",
         price: "159.66",
         tag: "new",
@@ -70,8 +77,8 @@ export const ProductsData = [
     },
     {
         id: 8,
-        image: Bag1,
-        title: "Leather Top by xsad ",
+        image: Bag8,
+        title: "Lavie",
         info: "Lorem ipsum dolor sit amet consectetur adip",
         originalPrice: "484.66",
         price: "405.99",

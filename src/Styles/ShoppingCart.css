@@ -1,7 +1,7 @@
 .cart-container {
     width: 100%;
     height: fit-content;
-    background-color: rgb(196, 196, 196);
+    background-color: rgb(229, 228, 228);
     display: flex;
     padding: 40px 0;
     justify-content: space-between;
@@ -9,6 +9,7 @@
 
 .side-title {
     width: 15%;
+    color: rgb(90, 89, 89);
 }
 
 .side-title h4 {

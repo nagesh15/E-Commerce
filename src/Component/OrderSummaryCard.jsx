@@ -6,6 +6,7 @@ const OrderSummaryCard = () => {
     const shipping = 20;
 
     const calculateSubtotal = () => {
+        console.log("hello");
         return cart.reduce(
             (subtotal, cartItem) => subtotal + cartItem.price * cartItem.qty,
             0
