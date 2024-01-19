@@ -1,0 +1,292 @@
+.cart-container {
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(196, 196, 196);
+    display: flex;
+    padding: 40px 0;
+    justify-content: space-between;
+}
+
+.side-title {
+    width: 15%;
+}
+
+.side-title h4 {
+    padding: 0 30px;
+}
+
+.cart-main {
+    padding: 30px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto 0;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.cart-summary {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cart-navbar {
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.menu-icon span {
+    padding: 10px 20px;
+    border-right: 1px solid black;
+}
+
+.account-icons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.account-icons h4 {
+    padding: 0 10px;
+}
+
+.account-icons span {
+    padding: 0 10px;
+}
+.main-title h1 {
+    margin-top: 10px;
+    font-size: 48px;
+}
+
+.cart-details-container {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.cart-details-container .cart-details {
+    width: 55%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    height: fit-content;
+}
+
+.cart-details-container .order-summary {
+    width: 30%;
+    border: 1px solid black;
+}
+
+.cart-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.cart-card img {
+    width: 70px;
+    height: 70px;
+}
+
+.cart-card .cart-item-title {
+    width: 25%;
+}
+
+.color-dot {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    box-shadow: 0 2px 2px rgb(195, 193, 193);
+}
+
+.cart-card select {
+    width: 50px;
+    padding: 5px;
+}
+
+.order-summary {
+    padding: 10px 40px;
+    height: fit-content;
+}
+
+.cost-flex {
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+
+.cost-flex h4 {
+    color: rgb(102, 102, 102);
+}
+
+.cost-flex:nth-last-child(-n + 3) {
+    border-top: 1px solid grey;
+}
+
+.cost-flex .total-cost {
+    font-weight: bold;
+    color: black;
+    font-size: 22px;
+}
+
+.btn-checkout {
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 30px;
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+}
+
+.suggestion {
+    margin: 30px 0;
+    font-size: medium;
+}
+
+.suggestion-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.suggestion-card {
+    width: 22%;
+}
+
+.image-section {
+    position: relative;
+}
+
+.suggestion-card img {
+    height: 200px;
+    width: 100%;
+}
+
+.image-section .whishlist-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.whishlist-icon svg {
+    height: 24px;
+    width: 24px;
+}
+
+.suggestion-card h4 {
+    padding: 10px 0;
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+    padding: 5px 0;
+    border-top: 1px solid rgb(183, 180, 180);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex div {
+    display: inline-block;
+    align-items: center;
+    margin: 0 2px;
+}
+
+.subsciption-container {
+    padding: 30px;
+    border-bottom: 1px solid black;
+}
+
+.subscription-section {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.subscription-text {
+    padding: 20px 0;
+}
+
+.subscription-text h1 {
+    font-size: 48px;
+    font-weight: normal;
+}
+
+.subscription-section .subscription-form {
+    width: 50%;
+    padding: 20px;
+}
+
+.subscription-form input {
+    padding: 10px;
+}
+
+.btn-subscribe {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: black;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.comapny-info {
+    padding: 30px;
+}
+
+.contacts-details {
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+.address {
+    padding: 20px 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.address .contacts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+}
+
+.flex-row {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.cart-footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cart-footer .footer-menus {
+    width: 50%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.footer-menus .footer-menu-list {
+    color: black;
+}
+
+.footer-menus .footer-menu h3 {
+    border: none;
+    padding: 0 0 10px;
+    color: rgb(119, 118, 118);
+}
+.footer-menus .footer-menu {
+    padding: 0;
+}
